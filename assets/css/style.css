@@ -1,0 +1,27 @@
+
+
+body {
+	background-color: #ccfcfa;
+}
+
+.jumbotron {
+	background-color: #c67b25;
+	color: #ffffff;
+}
+
+.rules, .scoreboard{
+	background-color: #ede6c0;
+	color: #478e57;
+
+}
+
+.targetNumber, .gemValue {
+	background-color: #c67b25;
+	color: #ffffff;
+}
+
+.crystalIcons {
+	background-color: #ffffff;
+
+}
+
