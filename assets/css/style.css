@@ -1,7 +1,7 @@
 
 
 body, .panel-default {
-	background-color: #ccfcfa;
+	background-color: #a9d5f9;
 	border: 0;
 }
 
@@ -9,7 +9,14 @@ img {
 	height: 120px;
 }
 
-.jumbotron {
-	background-color: #c67b25;
+.jumbotron, .panel-heading{
+	background-color: #3c3cfc;
 	color: #ffffff;
+	font-family: 'Playball', cursive;
+
+}
+
+.panel-body, .panel-heading{	
+	text-align: center;
+
 }

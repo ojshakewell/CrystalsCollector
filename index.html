@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Crystal Collector</title>
+
     <!-- Bootstrap CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" 
@@ -14,7 +16,9 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
   </head>
+
   <body>
     <div class = "container ">
 
@@ -27,94 +31,66 @@
       </div>
 
       <div class = "row"> 
-
-        <div class = "col-md-6"><!-- Right column -->
+        <div class = "col-md-6"><!-- left column -->
 
           <div class = "row">
-
-            <div class = "col-md-8">
+            <div class = "col-md-7">
 
               <div class = "row panel panel-primary">
-
                 <div class = "panel-heading">
-
-                  <h3>Target Number</h3>
-
+                  <h1>Target Number</h1>
                 </div>
-
                 <div class = "panel-body ">
-
-                  <h1 class = "targetNumber"></h1>
-
+                  <h1 class = "targetNumber">0</h1>
                 </div>
-
               </div>
 
               <div class = "row panel panel-info">
-
                 <div class = "panel-heading">
-                  <h3>Your Gems</h3>
+                  <h1>Your Gems</h1>
                 </div>
-
                 <div class = "panel-body">
-                  <h1 class = "playerNumber"></h1>
-
+                  <h1 class = "playerNumber">0</h1>
                 </div>
               </div>
             </div>
             
-            <div class = "col-md-4">
+            <div class = "col-md-5">
               <div class = "panel panel-danger">
-                <div class = "panel-heading outcome">Get Ready!</div>
-
+                <div class = "panel-heading ">
+                <h1 class = "outcome">Get<br />Ready!</h1>
+              </div>
                 <div class = "panel-body">
-
                   <h3 class = "wins">WINS: 0</h3>
                   <h3 class = "losses">LOSSES: 0</h3>
-
                 </div>
               </div>
             </div>
-
-
           </div>
 
           <div class = "row panel panel-default crystalsContainer">
               <!-- images GNU Lesser General Public License by Everaldo Coelho  -->
-             <button><img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Crystal_Clear_app_ksokoban.png" alt="red crystal" class ="red gem" data-value = '0'></button>
-
-             <button><img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Crystal_Clear_app_ksokoban_Yell.png" alt="yellow crystal" class ="yellow gem " data-value = '1'></button>
-
-             <button><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Crystal_Clear_app_ksokoban_green.png" alt="green crystal" class = "green gem" data-value = '2'></button>
-
-             <button><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Crystal_Clear_app_ksokoban_blue.png" alt="blue crystal" class = "blue gem" data-value = '3'></button>
+             <button><img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Crystal_Clear_app_ksokoban.png" alt="red crystal" class ="red gem"></button>
+             <button><img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Crystal_Clear_app_ksokoban_Yell.png" alt="yellow crystal" class ="yellow gem" ></button>
+             <button><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Crystal_Clear_app_ksokoban_green.png" alt="green crystal" class = "green gem"></button>
+             <button><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Crystal_Clear_app_ksokoban_blue.png" alt="blue crystal" class = "blue gem"></button>
           </div>
+        </div><!-- End left column -->
 
-        </div><!-- End Right column -->
-
-        <div class = "col-md-6"><!-- Left column -->
-
+        <div class = "col-md-6"><!-- Right column -->
           <div class = "panel panel-warning">
-
             <div class = "panel-heading">
               <h2>Rules</h2>
             </div>
-
             <div class = "panel-body">
-
               <p>You will be shown a random number at the start of the game.</p>  
-
               <p>When you click on one of the crystals, it will add a specific amount of points to the your total score. The value of the crystal is hidden.</p>
-
               <p>You win if your total score matches the random number from the beginning of the game.</p>
-
               <p>You lose if your total score goes above the random number.</p>
-
               <p>Each time the game starts, the vlaues of the crystals will change.</p>
             </div>
-
           </div>
-        </div><!-- End Left column -->
+        </div><!-- End right column -->
       </div> 
     </div>    <!-- End .container -->
 
@@ -125,6 +101,12 @@
     <!-- <script src="js/bootstrap.min.js"></script> -->
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"  alt="Valid CSS!" />
+      </a>]
+    </p>
 
     </body>
 </html>
