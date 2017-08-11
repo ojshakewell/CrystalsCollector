@@ -7,37 +7,37 @@ var losses = 0;
 
 resetNumbers();
 
-// $(".gem").click(function(){
+$(".gem").click(function(){
 
-// 	updatePlayerValue($(this).data("value"));
+	updatePlayerValue($(this).data("value"));
 	
-// 	console.log($(this).data("value"));
-// });
+	console.log($(this).data("value"));
+});
 
 //BUTTONS//
-$(".red").click(function(){
+// $(".red").click(function(){
 
-	updatePlayerValue(0);
-	isWinner();
-});
+// 	updatePlayerValue(0);
+// 	isWinner();
+// });
 
-$(".yellow").click(function(){
+// $(".yellow").click(function(){
 
-	updatePlayerValue(1);
-	isWinner();
-});
+// 	updatePlayerValue(1);
+// 	isWinner();
+// });
 
-$(".green").click(function(){
+// $(".green").click(function(){
 
-	updatePlayerValue(2);
-	isWinner();
-});
+// 	updatePlayerValue(2);
+// 	isWinner();
+// });
 
-$(".blue").click(function(){
+// $(".blue").click(function(){
 
-	updatePlayerValue(3);
-	isWinner();
-});
+// 	updatePlayerValue(3);
+// 	isWinner();
+// });
 
 //Determines if the game has been one or lost
 function isWinner(){
@@ -76,10 +76,10 @@ function resetNumbers(){
 
 	$(".playerNumber").text(0)
 
-	for (var i = 0; i < 4; i++) {
+	for (var i = 1; i < 5; i++) {
 		crystalValues.push(getRandomNumber());
-		//$(".gem:nth-child(" + i.toString() + ")").data("value", crystalValues[i-1]);
-		console.log( crystalValues[i]);
+		$(".gem:nth-child(" + i.toString() + ")").data("value", crystalValues[i-1]);
+		console.log( crystalValues[i-1]);
 	}
 };
 
