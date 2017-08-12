@@ -77,6 +77,8 @@ $(function() {
 
         $(".playerNumber").text(0)
 
+        crystalValues =  [];
+
         for (var i = 0; i < 4; i++) {
             crystalValues.push(getRandomNumber());
             // var nthChildString = ".gem:nth-child(" + (i+1).toString() + ")"
